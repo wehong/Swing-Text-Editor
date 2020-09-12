@@ -49,7 +49,6 @@ class View : ActionListener, KeyListener {
                         isModified = false
                         jtaEdit.text = ""
                     }
-                    //("변경되었습니다. 그래도 변경하시겠습니까?", JOptionPane.QUESTION_MESSAGE, JOptionPane.YES_NO_OPTION)
                 }
             }
             jmiFileExit -> exitProcess(0)
